@@ -117,7 +117,7 @@ class GetData:
                 # print(result)
 
     def main(self):
-        for i in range(1, 1000):
+        for i in range(1, 403 ):
             if self.get_data_by_index(i):
                 time.sleep(20)
                 continue
